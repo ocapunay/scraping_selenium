@@ -1,10 +1,7 @@
-# fuente: https://www.youtube.com/watch?v=O7o1iyhuA9o
-# https://www.youtube.com/watch?v=o8s9z6icgPY
-
 from selenium import webdriver
 import time
 
-nombre = "YOLNER DAVID AYBAR GUTIERREZ"
+nombre = "escribe aquí un nombre de prueba"
 # descargar driver de Chrome de https://chromedriver.chromium.org/
 driver = webdriver.Chrome('D:/Oscar/Datos Incorruptibles/scrapdatosinc/chromedriver.exe')
 
