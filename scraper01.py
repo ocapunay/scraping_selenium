@@ -1,12 +1,6 @@
-# fuente: https://www.youtube.com/watch?v=O7o1iyhuA9o
-# https://www.youtube.com/watch?v=o8s9z6icgPY
-
 from selenium import webdriver
-#from csv import reader
-import time
-
 from csv import DictReader
-
+import time
 
 # descargar driver de Chrome de https://chromedriver.chromium.org/
 driver = webdriver.Chrome('D:/Oscar/Datos Incorruptibles/scrapdatosinc/chromedriver.exe')
