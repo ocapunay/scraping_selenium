@@ -1,11 +1,6 @@
-# fuente: https://www.youtube.com/watch?v=O7o1iyhuA9o
-# https://www.youtube.com/watch?v=o8s9z6icgPY
-
 from selenium import webdriver
-#from csv import reader
-import time
-
 from csv import DictReader
+import time
 
 # crear archivo para los resultados
 f = open ('resultado01.csv','w')
@@ -16,7 +11,7 @@ driver = webdriver.Chrome('D:/Oscar/Datos Incorruptibles/scrapdatosinc/chromedri
 # web que vamos a scrapear
 driver.get("https://appbp.contraloria.gob.pe/BuscadorCGR/Informes/Inicio.html")
 
-# espera 3 segundos mientras carga el navegador y abre la web
+# espera 5 segundos mientras carga el navegador y abre la web
 time.sleep(5)
 
 # iterate over each line as a ordered dictionary and print only few column by column name
